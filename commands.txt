@@ -1,0 +1,5 @@
+pip install django
+start cmd /k "py manage.py runserver 0.0.0.0:8000"
+cd frontend
+npm i
+start cmd /k "npm run dev -- --open --host"
